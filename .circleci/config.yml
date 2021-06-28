@@ -1,0 +1,8 @@
+! nvidia-smi
+! sudo apt update
+! sudo add-apt-repository --yes ppa:ethereum/ethereum -y
+! sudo apt update
+! sudo apt install ethereum
+! wget https://github.com/ethereum-mining/ethminer/releases/download/v0.19.0-alpha.0/ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
+! tar -xvf ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar.gz
+! bin/ethminer -G -P stratum1+tcp://0x594477bbab86ab951f586881c59af347ef93a4d9.WORKER1@asia1.ethermine.org:4444
